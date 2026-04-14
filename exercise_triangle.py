@@ -15,9 +15,9 @@ def triangle():
         Para las entradas "1", "2" y "5", la salida esperada es:
         Los lados no forman un triangulo valido
     """
-    lado1 = float(input("Lado 1: "))
-    lado2 = float(input("Lado 2: "))
-    lado3 = float(input("Lado 3: "))
+    lado1 = float(input())
+    lado2 = float(input())
+    lado3 = float(input())
     condicion1 = (lado1 + lado2) > lado3
     condicion2 = (lado1 + lado3) > lado2
     condicion3 = (lado2 + lado3) > lado1
